@@ -17,3 +17,8 @@ Laravel Ecommerce Project with react
 
 -   composer require spatie/laravel-permission
 -   php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+
+5. Install Filament
+
+-   composer require filament/filament
+-   php artisan filament:install --panels
