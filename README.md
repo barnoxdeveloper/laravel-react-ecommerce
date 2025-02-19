@@ -12,3 +12,8 @@ Laravel Ecommerce Project with react
 3. Uninstall Tailwindcss Forms
 
 -   npm uninstall @tailwindcss/forms
+
+4. Install spatie laravel permission
+
+-   composer require spatie/laravel-permission
+-   php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
