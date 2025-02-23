@@ -22,3 +22,8 @@ Laravel Ecommerce Project with react
 
 -   composer require filament/filament
 -   php artisan filament:install --panels
+
+6. Install Filament Spatie Media Library
+
+-   composer require filament/spatie-laravel-media-library-plugin
+-   php artisan vendor:publish --provider="Spatie\MediaLibrary\MediaLibraryServiceProvider" --tag="medialibrary-config"
